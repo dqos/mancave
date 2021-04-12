@@ -28,13 +28,13 @@ The total costs would be below **€ 15**, isn't that nice?
 
 ### Hardware
 In this chapter we will explain the hardware part of the project, which is quite simple to be honest. Below is a photo of the end result:
-![hardware](https://i.imgur.com/bCHh407.jpg)
+![hardware](https://raw.githubusercontent.com/dqos/mancave/main/photos/hardware.jpg)
 As you can see the 4-way relay is connected to the ESP32. You only need two relays (up and down). The ESP32 controls the relay by sending HIGH/LOW signals to the relay. LOW = relay on, HIGH = relay off. 230V + needs to be connected to both relays because the original shutter switch is a 3-way switch. Connecting + with one of the two cables controlls the rolling motor.
 
 ***Tip: use a strong power supply for the ESP32, or get a quality devboard from WeMoS, because the relay drains all power from the board, preventing you from compiling new Arduino code (md5 issues etc).***
 
 You must connect the relay to the 3-way wall switch like this:
-![switch](https://i.imgur.com/dMwwKW7.jpg)
+![switch](https://raw.githubusercontent.com/dqos/mancave/main/photos/switch.jpg)
 
 ### Software
 The software is based on PHP code for the controller, and Arduino code for the ESP32 which acts as a device.
@@ -58,7 +58,7 @@ The software is based on PHP code for the controller, and Arduino code for the E
 You can make an app from it by added it to your homescreen on your smartphone. You also might want to translate some parts of the webapp.
 
 The webapp will look like this in iOS 11:
-![webapp](https://i.imgur.com/9a733.jpg)
+![webapp](https://raw.githubusercontent.com/dqos/mancave/main/photos/webapp.jpg)
 
 ### License
 MIT License
