@@ -1,0 +1,8 @@
+{
+  "name": "Rolluikapp",
+  "description": "This app manages the rolluiken.",
+  "icons": [{
+    "src": "icon.png",
+    "sizes": "192x192"
+  }]
+}
